@@ -31,7 +31,7 @@ client.on('ready', () => {
 
 
 });
- //////////////////////////////////////////
+
 client.on('message', function(message) {
 
     	 if (!message.channel.guild) return;
@@ -108,7 +108,7 @@ delete warn[message.author.id];
   
   }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 var guilds = {};
 client.on('guildBanAdd', function(guild) {
             const rebellog = client.channels.find("name", "log"),
@@ -200,7 +200,7 @@ channel.guild.owner.send(`<@!${channelremover.id}>
  channelr[channelremover.id].deleted = 0;
   },Otime)
   });
-  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 client.on('message', msg => {
   if(msg.content === '-اخفاء') {
     msg.guild.channels.forEach(c => {
@@ -223,7 +223,7 @@ client.on('message', msg => {
     msg.channel.send('**تم اظهار جميع الرومات**')
   }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 client.on('message', message => {
     var prefix = "-";
 if(!message.channel.guild) return;
@@ -255,7 +255,7 @@ message.channel.send("``لا تستطيع سحب "+ message.mentions.members.fir
 } else {
 message.react("❌")
  }}});
- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
  const ms = require("ms");
   client.on("message", message => {
  if(!message.channel.guild) return;  
@@ -311,7 +311,7 @@ client.on('message',function(message) {
        });
    }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
   const fs = require('fs')
 const p = {}
@@ -333,7 +333,7 @@ const prefix = p[message.guild.id].prefix
 
 
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 client.on('message', message => {
 var prefix = "-";
        if(message.content === prefix + "اقفل") {
@@ -361,7 +361,7 @@ var prefix = "-";
     }
        
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 client.on('message', ra3d => {
 var prefix = "-";
                         let args = ra3d.content.split(" ").slice(1).join(" ")
@@ -380,7 +380,6 @@ if(ra3d.content.startsWith(prefix + 'انشاء')) {
        });
  
  
-//////////////////////////////////////////////////////
 
 client.on('message', message => {
     if(message.content.includes('discord.gg')){
@@ -391,7 +390,7 @@ client.on('message', message => {
     }
 }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
  client.on("message", message => {
 	var prefix = "-";
 	var args = message.content.split(' ').slice(1); 
@@ -439,7 +438,7 @@ client.on('message', message => {
 		} 
 	} 
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 client.on('message', message => {
     let args = message.content.split(' ').slice(1);
 if(message.content.split(' ')[0] == 'لون'){
@@ -475,7 +474,7 @@ setInterval(function(){})
       
 }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
   client.on('message', message => {
   var prefix = "-";
   if (message.author.omar) return;
@@ -501,7 +500,7 @@ message.guild.member(user).kick();
 }
 });
 
-//////////////////////////////////////////////////////////////
+
   
   
   client.on('message', message => {
@@ -527,7 +526,7 @@ message.guild.member(user).kick();
       message.author.sendEmbed(Embed11)
     }
 });
- /////////////////////////////////
+
  client.on('message', msg => {
 	var prefix = "-";
   if (msg.author.bot) return;
@@ -552,7 +551,7 @@ message.guild.member(user).kick();
     }
 }
 });
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
  
  
 
